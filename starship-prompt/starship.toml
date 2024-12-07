@@ -5,11 +5,11 @@ format = """
 $os\
 $username\
 [](bg:color_yellow fg:color_orange)\
-$directory\ 
+$directory\
 [](fg:color_yellow bg:color_aqua)\
 $git_branch\
 $git_status\
-$git_metrics\ 
+$git_metrics\
 [](fg:color_aqua bg:color_blue)\
 $golang\
 $nodejs\
