@@ -5,15 +5,16 @@ format = """
 $os\
 $username\
 [](bg:color_yellow fg:color_orange)\
-$directory\
+$directory\ 
 [](fg:color_yellow bg:color_aqua)\
 $git_branch\
 $git_status\
-$git_metrics\
+$git_metrics\ 
 [](fg:color_aqua bg:color_blue)\
 $golang\
 $nodejs\
 $java\
+$rust\
 $python\
 [](fg:color_blue bg:color_bg3)\
 $docker_context\
@@ -99,7 +100,7 @@ format = '[[ $symbol( $version) ](fg:color_fg0 bg:color_blue)]($style)'
 symbol = ""
 pyenv_version_name = true
 style = "bg:color_blue"
-format = '[[ $symbol( $version) ](fg:color_fg0 bg:color_blue)]($style)'
+format = '[[ $symbol( $version) \(($virtualenv)\) ](fg:color_fg0 bg:color_blue)]($style)'
 
 [package]
 style = "bg:color_blue"
